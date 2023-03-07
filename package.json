@@ -1,0 +1,22 @@
+{
+  "name": "ia-project-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": " nodemon -L ./index.js"
+  },
+  "author": "Felipe Gatica",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http-status": "^1.6.2",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
